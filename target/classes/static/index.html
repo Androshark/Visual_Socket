@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WebRTC demo</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>Visual_Socket</h1>
+
+		<div id="pseudo-setup">
+			<input id="pseudoInput" placeholder="Entrez votre pseudonyme">
+			<button type="button" id="pseudo" onclick="createPseudo()">Entrez votre pseudo</button>
+		</div>
+
+		<div id="miscellaneous">
+			<button type="button" onclick='createOffer()'>Create Offer</button>
+			<input id="messageInput" type="text" placeholder="message">
+			<button type="button" onclick='sendMessage()'>SEND</button>
+		</div>
+
+		<div id="videos">
+			<p>
+				<video id="localVideo" autoplay controls></video>
+				<video id="remoteVideo" autoplay controls></video>
+			</p>
+		</div>
+
+		<ul id="textMessages">
+		</ul>
+
+		<script src="client.js"></script>
+
+
+	</div>
+
+</body>
+
+</html>

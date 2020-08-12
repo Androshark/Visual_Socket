@@ -1,0 +1,34 @@
+* {
+	background-color: #123652;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	padding: 25px;
+	background-color: #042037;
+	font-family: 'Krona One', sans-serif;
+}
+
+#pseudo-setup {
+	padding: 25px;
+}
+
+#miscellaneous {
+	padding: 25px;
+	color: white;
+}
+
+#videos {
+	text-align: center;
+}
+
+#remoteVideo {
+	padding-left: 100px;
+}
+
+li {
+	color: white;
+}
